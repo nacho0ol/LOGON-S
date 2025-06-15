@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Factory Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>Welcome to the Factory Floor!</h1>
+      <p>Standard employee view. Nothing to see here.</p>
+
+      <div id="flag-container" style="display: none">
+        <h2>Admin Panel: TOP SECRET</h2>
+        <p>Here's what you were looking for, Pur:</p>
+        <p class="flag">TI404{l1l4_0l1p_i$_w4tch1ng}</p>
+      </div>
+    </div>
+
+    <script>
+      window.onload = function () {
+        if (document.cookie.includes("isAdmin=true")) {
+          document.getElementById("flag-container").style.display = "block";
+        }
+      };
+    </script>
+  </body>
+</html>

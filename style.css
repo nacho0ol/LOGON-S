@@ -1,0 +1,49 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #0a0a0a;
+  color: #00ff41;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  border: 2px solid #00ff41;
+  padding: 40px;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 15px rgba(0, 255, 65, 0.3);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input,
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  background-color: #333;
+  border: 1px solid #00ff41;
+  color: #00ff41;
+}
+
+button {
+  cursor: pointer;
+  background-color: #00ff41;
+  color: #0a0a0a;
+  font-weight: bold;
+}
+
+.flag {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ff4757;
+  border: 1px dashed #ff4757;
+  padding: 10px;
+}
